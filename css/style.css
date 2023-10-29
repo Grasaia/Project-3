@@ -1,0 +1,80 @@
+#main-navbar {
+    background-color: rgb(255, 215, 0);
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 35px;
+  }
+  
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
+  }
+  
+#main-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+  }
+  
+#main-navbar ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+  }
+  
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 15px;
+  color: #fff;
+  text-decoration: none;
+  }
+  
+#main-navbar ul li a:hover {
+  background-color: #D3D3D3;
+  }
+  
+body{
+  background-color: #D3D3D3;
+  color: #fff;
+  }
+
+#resume-title{
+  font-family: 'Abgolumo', monospace;
+  font-style: italic;
+}
+
+h2{
+  font-family: 'Edu_TAS_Beginner', sans-serif;
+}
+
+p{
+  font-family: 'Nosifer', serif;
+}
+
+img{
+  border: 5px solid #fff;
+}
+  
+#redopic{
+  margin-left: 35%;
+}
+
+.Fitness{
+  margin-top: 1%;
+}
+
+#Onecatch{
+  margin-top: 2%;
+  height: 250px;
+  width: auto;
+}
+
+.Sports{
+  height: 200px;
+  width: auto;
+}
