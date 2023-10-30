@@ -43,7 +43,7 @@ body{
   color: #fff;
   }
 
-#resume-title{
+#about-me{
   font-family: 'Abgolumo', monospace;
   font-style: italic;
 }
@@ -68,7 +68,7 @@ img{
   margin-top: 1%;
 }
 
-#Onecatch{
+.about-me{
   margin-top: 2%;
   height: 250px;
   width: auto;
