@@ -1,175 +1,163 @@
 
-h1{
-  text-align: center;
+  h1{
+    text-align: center;
 }
 	
-.navbar ul{
-  list-style-type: none;
-  background-color: hsl(9, 13%, 11%);
-  padding: 0px;
-  margin: 0px;
-  overflow: hidden;
+  .navbar ul{
+    list-style-type: none;
+    background-color: hsl(9, 13%, 11%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
 }
 	
-.navbar a{
-  color: goldenrod;
-  text-decoration: none;
-  padding: 15px;
-  display: block;
-  text-align: center;
+  .navbar a{
+    color: goldenrod;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
 }
 	
-.navbar a:hover{
-  background-color: hsl(10, 75%, 2%)
+  .navbar a:hover{
+    background-color: hsl(10, 75%, 2%)
 }
 	
-.navbar li{
-float: center;
+  .navbar li{
+    float: center;
 }
 
-body {
-  margin-top:0;
-  padding:0;
-  display: flex;
-  justify-content:center;
-  align-items:center;
-  height:100vh;
-  background:(rgb(233, 31, 240));
+  body{
+    margin-top:0;
+    padding:0;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:(rgb(233, 31, 240));
 }
   
   ul{
-  margin:0;
-  padding:0;
-  display:flex;
+    margin:0;
+    padding:0;
+    display:flex;
 }
   
   ul li{
-  list-style:none;
-  margin:0 20px;
-  transition:0.5s;
+    list-style:none;
+    margin:0 20px;
+    transition:0.5s;
 }
   
   ul li a{
-  display: block;
-  position:relative;
-  text-decoration:none;
-  padding:5px;
-  font-size:18px;
-  font-family: sans-serif;
-  color:#b80606;
-  text-transform:uppercase;
-  transition:0.5s;
+    display: block;
+    position:relative;
+    text-decoration:none;
+    padding:5px;
+    font-size:18px;
+    font-family: sans-serif;
+    color:#b80606;
+    text-transform:uppercase;
+    transition:0.5s;
 }
   
   ul:hover li a{
-  transform:scale(1.5);
-  opacity:0.2;
-  filter:blur(5px);
+    transform:scale(1.5);
+    opacity:0.2;
+    filter:blur(5px);
 }
   
   ul li a:hover{
-  transform:scale(2);
-  opacity:1;
-  filter:blur(0);
-  text-decoration:none;
-  color:#a30a0a;
+    transform:scale(2);
+    opacity:1;
+    filter:blur(0);
+    text-decoration:none;
+    color:#a30a0a;
 }
   
   ul li a:before{
-  content:'';
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  background: goldenrod;
-  transition:0.5s;
-  transform-origin:right;
-  transform:scaleX(0);
-  z-index:-1;
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: goldenrod;
+    transition:0.5s;
+    transform-origin:right;
+    transform:scaleX(0);
+    z-index:-1;
 }
   
   ul li a:hover:before{
-  transition:transform 0.5s;
-  transform-origin:center;
-  transform:scaleX(1);
+    transition:transform 0.5s;
+    transform-origin:center;
+    transform:scaleX(1);
 }
 
-.container{
-  width: 100%;
-  height: 100vh;
-  background-image: url = ("triangle.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding-left: 8%;
-  padding-right: 8%;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #e8b923;
-  color: green;
+  body{
+    background-color: #e8b923;
+    color: purple;
 }
   
-  h1 {
-  background-color: purple;
-  color: #e8b923;
+  h1{
+    background-color: purple;
+    color: #e8b923;
 }
   
-  div {
-  background-color: black;
-  color: #e8b923;
+  div{
+    background-color: black;
+    color: #e8b923;
 }
   
   ul li{
-  list-style:none;
-  margin:0 20px;
-  transition:0.5s;
+    list-style:none;
+    margin:0 20px;
+    transition:0.5s;
 }
   
   ul li a{
-  display: block;
-  position:relative;
-  text-decoration:none;
-  padding:5px;
-  font-size:18px;
-  font-family: sans-serif;
-  color:purple;
-  text-transform:uppercase;
-  transition:0.5s;
+    display: block;
+    position:relative;
+    text-decoration:none;
+    padding:5px;
+    font-size:18px;
+    font-family: sans-serif;
+    color:purple;
+    text-transform:uppercase;
+    transition:0.5s;
 }
   
   ul:hover li a{
-  transform:scale(1.5);
-  opacity:0.2;
-  filter:blur(5px);
+    transform:scale(1.5);
+    opacity:0.2;
+    filter:blur(5px);
 }
   
   ul li a:hover{
-  transform:scale(2);
-  opacity:1;
-  filter:blur(0);
-  text-decoration:none;
-  color:purple;
+    transform:scale(2);
+    opacity:1;
+    filter:blur(0);
+    text-decoration:none;
+    color:purple;
 }
   
   ul li a:before{
-  content:'';
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  background:#e8b923;
-  transition:0.5s;
-  transform-origin:right;
-  transform:scaleX(0);
-  z-index:-1;
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#e8b923;
+    transition:0.5s;
+    transform-origin:right;
+    transform:scaleX(0);
+    z-index:-1;
 }
   
   ul li a:hover:before{
-  transition:transform 0.5s;
-  transform-origin:left;
-  transform:scaleX(1);
+    transition:transform 0.5s;
+    transform-origin:left;
+    transform:scaleX(1);
 }
