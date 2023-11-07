@@ -98,7 +98,7 @@ body {
 .container{
   width: 100%;
   height: 100vh;
-  background-image: url = ("https://imgs.search.brave.com/Y9nFrO8Na7cLfLrhAOBqLQQYFK8Bt6Yh5tgx6JfNmpg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQ1/Nzg3MzQ0L3Bob3Rv/L2NoaWNhZ28uanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPWNn/Q2pQUE5aLXpodDBh/VHpyeTBaend3Qjdv/OVJ6WTF0Ui1fLWJX/WVZXOUU9");
+  background-image: url = ("triangles.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
