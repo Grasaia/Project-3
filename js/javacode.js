@@ -19,7 +19,7 @@ function init() {
     });
 
 
-    var contentString ='<h1>Estadio Akron</h1><p>Estadio Akron is the home football stadium for my favorite football club C.D. Guadalajara.</p>';
+    var contentString = ;
 
     var infowindow = new google.maps.InfoWindow({
       content: contentString
