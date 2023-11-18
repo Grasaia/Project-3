@@ -1,6 +1,6 @@
 function init() {
     var el = document.getElementById('mapcanvas');
-    var myLocation = new google.maps.LatLng(20.682027, -103.462431);
+    var myLocation = new google.maps.LatLng(41.880692, -87.674370);
     var mapOptions = {
 	  center: myLocation,
 	  zoom: 15,
@@ -15,11 +15,11 @@ function init() {
 	  position: myLocation,
 	  map: myMap,
       animation: google.maps.Animation.DROP,
-      icon:'images/chivas.png'
+      icon:'img/b-ball.png'
     });
 
 
-    var contentString = ;
+    var contentString = ='<h1>United Center</h1><p>The United Center is the home stadium where the Chicago Bulls go to play their games</p>';
 
     var infowindow = new google.maps.InfoWindow({
       content: contentString
