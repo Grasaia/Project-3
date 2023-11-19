@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
     <script defer src="js/javacode.js">
     </script>
-    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQ360PfNq8Xdo-Ov0NJ80qkXbBNxP8BZ0&callback=initMap">
+    <script async src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE&callback=console.debug&libraries=maps,marker&v=beta">
     </script>
   </head>
 
@@ -21,9 +21,10 @@
         <li><a href="map.html">Map</a></li>
       </ul>
     </div>
+    <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed/v1/place?key=API_KEY &q=Space+Needle,Seattle+WA">
+    </iframe>
     <div id="sec-map"> 
       <div id="map"></div>
     </div>
-     
-  </body>
+    </body>
 </html>
