@@ -1,15 +1,3 @@
-function init() {
-    var el = document.getElementById('mapcanvas');
-    var myLocation = new google.maps.LatLng(41.880692, -87.674370);
-    var mapOptions = {
-	  center: myLocation,
-	  zoom: 15,
-	  mapTypeId: google.maps.MapTypeId.SATELLITE,
-	  mapTypeControlOptions: {
-	  position: google.maps.ControlPosition.BOTTOM_CENTER
-		}
-	};
-  
   let map;
 
 async function initMap() {
