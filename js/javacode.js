@@ -9,6 +9,19 @@ function init() {
 	  position: google.maps.ControlPosition.BOTTOM_CENTER
 		}
 	};
+  
+  let map;
+
+async function initMap() {
+  const { Map } = await google.maps.importLibrary("maps");
+
+  map = new Map(document.getElementById("map"), {
+    center: { lat: 41.880692, lng: -87.674370 },
+    zoom: 8,
+  });
+}
+
+initMap();
 
 	var myMap = new google.maps.Map(el, mapOptions);
     var marker = new google.maps.Marker({

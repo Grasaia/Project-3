@@ -27,16 +27,33 @@
     text-align: center;
 }
 
-.container{
-	width: 100%;
-	height: 100vh;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	padding-left: 8%;
-	padding-right: 8%;
-	box-sizing: border-box;
+  .container{
+    width: 100%;
+	  height: 100vh;
+	  background-size: cover;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  padding-left: 8%;
+	  padding-right: 8%;
+	  box-sizing: border-box;
   }
+
+  .map{
+    height: 100%;
+}
+    
+    
+  html,
+  body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+      
+    
+    
+  
 
   body{
     margin-top:0;
