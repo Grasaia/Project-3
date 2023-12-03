@@ -127,7 +127,46 @@
     background-color: #e8b923;
     color: purple;
 }
+  /* Media query for tablets and smaller screens */
+@media only screen and (max-width: 768px) {
+  body{
+    font-size: 14px;
+}
+
+
+  h1{
+    background-color: black;
+}
+
+  h2{
+    background-color: black;
+}
+  h3{
+    background-color: black;
+}
+
+}
+
+/* Media query for mobile phones and smaller screens */
+@media only screen and (max-width: 480px) {
+  body{
+    font-size: 12px;
+}
+
   
+  h1{
+    background-color: black;
+}
+
+  h2{
+    background-color:black;
+  }
+
+  h3{
+    background-color: black;
+  }
+}
+
   h1{
     background-color: purple;
     color: #e8b923;
