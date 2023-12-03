@@ -31,6 +31,7 @@
     width: 100%;
 	  height: 100vh;
     text-align: center;
+    align-items: center;
 	  background-size: cover;
 	  background-position: center;
 	  background-repeat: no-repeat;
@@ -62,6 +63,7 @@
     padding:0;
     display: flex;
     justify-content:center;
+    text-align: center;
     align-items:center;
     height:100vh;
     background: goldenrod;
